@@ -1,0 +1,1 @@
+# Sample Vespa Implementation for Forum Search
