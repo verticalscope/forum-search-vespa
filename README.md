@@ -11,4 +11,7 @@ This is a sample implementation of Vespa search on Forum Data. We're going to be
    ```
    docker run --name vespamysql  -p 3306:3306 -p 33060:33060 -e MYSQL_ROOT_PASSWORD=<YOUR_PASSWORD> -e MYSQL_ROOT_HOST=% -d mysql:5.7
    ```
-2. Follow the instructions in the dataset/README.md to download and upload the https://diy.stackexchange.com/ to the MySQL docker instance
+2. Follow the instructions in the [dataset/README.md](dataset/README.md) to download and upload the https://diy.stackexchange.com/ to the MySQL docker instance
+
+### Setup Vespa docker
+1. Follow the instructions in the [app/README.md](app/README.md) to setup the Vespa docker on localhost
