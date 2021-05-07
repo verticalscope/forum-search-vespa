@@ -1,4 +1,5 @@
 # Sample Vespa Implementation for Forum Search
+At _VerticalScope Inc._, we use Vespa for powering our search and recommendation engine for 1000+ internet forums. We're providing a sample app here to sort of mimic how we use it internally using a sample forum dataset.
 
 This is a sample implementation of Vespa search on Forum Data. We're going to be using data from https://diy.stackexchange.com/ for this example.
 
