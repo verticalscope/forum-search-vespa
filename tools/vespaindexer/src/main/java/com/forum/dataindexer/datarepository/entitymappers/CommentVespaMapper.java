@@ -1,7 +1,7 @@
 package com.forum.dataindexer.datarepository.entitymappers;
 
 import com.forum.dataindexer.datarepository.entitymappers.utils.Utils;
-import com.forum.dataindexer.entitities.Comment;
+import com.forum.dataindexer.entities.Comment;
 
 import org.json.JSONObject;
 

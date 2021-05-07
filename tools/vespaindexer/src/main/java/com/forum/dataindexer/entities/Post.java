@@ -1,4 +1,4 @@
-package com.forum.dataindexer.entitities;
+package com.forum.dataindexer.entities;
 
 import java.sql.Timestamp;
 

@@ -3,7 +3,7 @@ package com.forum.dataindexer.datarepository.entitymappers;
 import java.sql.ResultSet;
 import java.sql.SQLException;
 
-import com.forum.dataindexer.entitities.Comment;
+import com.forum.dataindexer.entities.Comment;
 
 public class CommentSQLMapper implements SQLEntityMapper<Comment> {
     private static final String SQL_TABLE_NAME = "Comments";

@@ -1,6 +1,6 @@
 package com.forum.dataindexer.datarepository.entitymappers;
 
-import com.forum.dataindexer.entitities.Entity;
+import com.forum.dataindexer.entities.Entity;
 
 import org.json.JSONObject;
 

@@ -5,8 +5,8 @@ import java.util.logging.Logger;
 
 import com.forum.dataindexer.datarepository.SQLRepository;
 import com.forum.dataindexer.datarepository.VespaRepository;
-import com.forum.dataindexer.entitities.Comment;
-import com.forum.dataindexer.entitities.Post;
+import com.forum.dataindexer.entities.Comment;
+import com.forum.dataindexer.entities.Post;
 
 /**
  * Hello world!

@@ -10,8 +10,8 @@ import java.util.ArrayList;
 
 import com.forum.dataindexer.datarepository.entitymappers.CommentSQLMapper;
 import com.forum.dataindexer.datarepository.entitymappers.PostSQLMapper;
-import com.forum.dataindexer.entitities.Comment;
-import com.forum.dataindexer.entitities.Post;
+import com.forum.dataindexer.entities.Comment;
+import com.forum.dataindexer.entities.Post;
 
 public class SQLRepository implements Repository, AutoCloseable {
     private static final Logger log = Logger.getLogger(SQLRepository.class.getCanonicalName());

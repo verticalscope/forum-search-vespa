@@ -2,8 +2,9 @@ package com.forum.dataindexer.datarepository;
 
 import java.sql.SQLException;
 import java.util.ArrayList;
-import com.forum.dataindexer.entitities.Comment;
-import com.forum.dataindexer.entitities.Post;
+
+import com.forum.dataindexer.entities.Comment;
+import com.forum.dataindexer.entities.Post;
 
 public interface Repository {
     default ArrayList<Comment> getComments() throws SQLException, UnsupportedOperationException {

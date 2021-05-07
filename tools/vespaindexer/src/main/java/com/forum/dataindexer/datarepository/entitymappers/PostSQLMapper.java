@@ -3,7 +3,7 @@ package com.forum.dataindexer.datarepository.entitymappers;
 import java.sql.ResultSet;
 import java.sql.SQLException;
 
-import com.forum.dataindexer.entitities.Post;
+import com.forum.dataindexer.entities.Post;
 
 public class PostSQLMapper implements SQLEntityMapper<Post>{
     private static final String SQL_TABLE_NAME = "Posts";
