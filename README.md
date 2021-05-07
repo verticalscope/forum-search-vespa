@@ -15,3 +15,7 @@ This is a sample implementation of Vespa search on Forum Data. We're going to be
 
 ### Setup Vespa docker
 1. Follow the instructions in the [app/README.md](app/README.md) to setup the Vespa docker on localhost
+
+### Index forum data into Vespa
+1. Ensure that the above steps (dataset in SQL and Vespa docker setup) are complete and are running properly.
+2. Follow the instructions in the [tools/vespaindexer/README.md](tools/vespaindexer/README.md) to load all the forum data into Vespa docker.
